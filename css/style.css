@@ -39,6 +39,8 @@ body{
 .fit {
     height: fit-content;
     width: fit-content;
+    height: -moz-fit-content;
+    width: -moz-fit-content;
 }
 #first h1{
     font-size: 3em;

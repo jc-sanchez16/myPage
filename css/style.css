@@ -1,3 +1,232 @@
-#first{
-    background-image: url(/img/Sky.jpg);
+body{
+    overflow-x: hidden;
 }
+.translucent{
+    opacity: 0.3;
+}
+.container{
+    max-width: 90vw;
+}
+#first{
+    background-image: url(../assets/img/Sky.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    z-index:100
+}
+.black-cover{
+    background-image: radial-gradient(rgb(0,0,0,0),rgb(0,0,0,1) 77%);
+}
+.centrado {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centrado-v {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.centrado-h {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.fit {
+    height: fit-content;
+    width: fit-content;
+}
+#first h1{
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+/* Text animation styles */
+.text-wrapper{
+    transition: 1s;
+    overflow: hidden;
+    display: inline-block;
+    height: 64px;
+    position: relative;
+    bottom: -17px;
+    width: 400px;
+}
+.text-wrapper::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 2px;
+    height: 70%;
+    background-color: white;
+}
+.ani-text{
+    position: absolute;
+    transition-delay: 1s;
+}
+.opa-0{
+    opacity:0;
+}
+
+/* Social Links Styles */
+#first .social-links {
+    position: absolute;
+    bottom: 10%;
+}
+
+.social-links {
+    display: block;
+    margin: auto
+}
+.social-links a img{
+    width: 50px;
+    height: 50px;
+    margin: 0 20px
+}
+
+/* Button Styles */
+.button {
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding:10px;
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color:white
+}
+.button:before{
+    text-align: center;
+    display: inline-block;
+    border:1px solid white;
+    content: attr(data-text);
+    position: absolute;    
+    top:0;
+    left:-1px;
+    padding:10px;
+    width: 160px;
+    height: 50px;
+    transition:0.5s;
+    transform-origin: bottom;
+    transform: translateY(-100%) rotateX(90deg);
+    background-color: steelblue;
+}
+.button:hover{
+    color: white;
+}
+.button:hover:before{
+    transform: translateY(0) rotateX(0deg);
+}
+.button:after{
+    text-align: center;
+    display: inline-block;
+    border:1px solid white;
+    content: attr(data-text);
+    position: absolute;    
+    top:0;
+    left:-1px;
+    padding:10px;
+    width: 160px;
+    height: 50px;
+    transition:0.5s;
+    transform-origin: top;
+}
+.button:hover:after{
+    transform: translateY(100%)  rotateX(90deg);
+}
+
+/* Second Page */
+.second-page{
+    background-image: url(../assets/img/header.jpg);
+    background-size: cover;
+    color:white;
+}
+
+/* Third Section Styles */
+.about .list{
+    padding: 10px 20px 10px 5px;
+    display: inline-table;
+}
+
+.about .item{
+    margin: 5% 0 5% 10%
+}
+
+.about .item p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.about .item label{
+    font-size: 17;
+    color:grey;
+    position: relative;
+    left:15px
+}
+.about .skills {    
+    padding: 10px 20px 10px 5px;
+}
+.about .skill{
+    margin: 5% 0;
+}
+.about .skill label{    
+    font-size: 20px;
+}
+.about .skill .progres{
+    height: 5px;
+    background-color: grey;
+}
+.about .fullfil{
+    background-color: skyblue;
+    height: 5px;
+}
+.about h1{
+    position: relative;
+    margin-bottom: 40px;
+}
+.about h1:after{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: teal;
+    padding: 1px 40px;
+    content: " ";
+}
+
+/* Secon Section Styles */
+.presentation{
+    background-color: #343a40;
+    height: 50vh;
+}
+.presentacion .texto{
+    padding: 10px 20px;
+}
+.presentation .texto p{
+    font-size: 23px;
+    line-height: 2;
+}
+.circuloImg{
+    background-image: url(../assets/img/perfil.jpg);
+    background-size: cover;
+    clip-path: circle(150px at center);
+}
+
+/* Other Styles */
+.title{
+    background-image: url(../assets/img/tech.jpg);
+    background-size: cover;
+    height: 300px;
+}
+.second-page .black-cover{
+    bottom: -350px;
+    z-index: -1;
+}
+footer{
+    z-index: 100;
+}
+

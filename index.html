@@ -3,14 +3,14 @@
 
 <head>
     <!-- Meta definitions includes title, author , description and favicon -->
-    <title>MyPage</title>
+    <title>JCS Page</title>
     <meta name="author" content="Juan Camilo Sanchez">
     <meta name="description"
         content="This is a page where you can find all the relevant information about me and my projects.">
     <link rel="Shortcut Icon" href="assets/icons/favicon.png" type="image/x-icon">
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -21,26 +21,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="/index.html">JCS Page</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!-- Bootstrap NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed vw-100 translucent">
+        <a class="navbar-brand" href="./index.html">JCS Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/pages/">Link</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About me</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-      <div class="container">
-          <div id="first" class="section vh-100"></div>
-      </div>
+    </nav>
+    <!-- First Section -->
+    <div id="first" class="section vh-100 position-relative">
+        <!-- Translucent cover to background -->
+        <div class="black-cover vh-100 vw-100 position-absolute"></div>
+        <div class="centrado">
+            <!-- Text Animation -->
+            <h1 class="text-white centrado-h fit overflow-hidden">
+                <span>I Am</span>
+                <span class="text-wrapper">
+                    <b class="ani-text">Juan.Camilo.Sanchez</b>
+                    <b class="ani-text opa-0">a.Developer</b>
+                    <b class="ani-text opa-0">a.Web.Designer</b>
+                </span>
+            </h1>
+            <!-- Button -->
+            <a class="button centrado-h" data-text="See More" href="./about.html"></a>
+        </div>
+        <div class=" fit social-links centrado-h">
+            <a target="_blank" href="https://wa.me/+573006310993"><img src="./assets/icons/whatsapp.svg"
+                    alt="whatsapp"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/juan-camilo-sanchez-577769192/"><img
+                    src="./assets/icons/linkedin.svg" alt="linkedin"></a>
+            <a target="_blank" href="https://github.com/jc-sanchez16"><img src="./assets/icons/github.svg"
+                    alt="github"></a>
+            <a target="_blank" href="https://twitter.com/JuanCam09351063"><img
+                    src="./assets/icons/twitter.svg" alt="twitter"></a>
+            <a target="_blank" href="mailto:jc.sanchez1616@hotmail.com"><img
+                    src="./assets/icons/envelope.svg" alt="mail"></a>
+            <a target="_blank" href="tel:+573006310993"><img src="./assets/icons/phone.svg" alt="phone"></a>
+        </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -52,7 +82,7 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
         <!-- local scripts -->
-    <script src="js/test.js"></script>
+        <script src="js/home.js"></script>
 </body>
 
 </html>

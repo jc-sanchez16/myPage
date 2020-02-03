@@ -28,3 +28,6 @@ Author: [Juan Camilo Sanchez](https://github.com/jc-sanchez16)
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 This project is licensed under the MIT License
+
+## Credit
+Icons taken from https://fontawesome.com/

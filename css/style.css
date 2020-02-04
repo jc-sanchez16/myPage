@@ -1,3 +1,10 @@
+/* Juan Sebastian Vaca: Respecto a la hoja de estilo de css se nota que hay un buen manejo de la sintaxis para darle los estilos correctos y a propiados a
+la pagina. Sin embargo la documentacion es muy simple , no es nada especifica y en algunos casos no esta documentado, lo anterior 
+deriva a que en ocasiones no se sepa a que parte de la pgina web le esta aplicando ciertos estilos. En los casos en los que hay 
+documentacion solo se resalta el iniccio mas no el final de ese container,div.section,etc.... lo cual hace que uno se pierda entre 
+el diseno de uno y el otro. */
+
+/* Juan Sebastian Vaca: Falta resaltar la documentacion del body */
 body{
     overflow-x: hidden;
 }
@@ -47,6 +54,7 @@ body{
     margin-bottom: 40px;
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Text animation styles */
 .text-wrapper{
     transition: 1s;
@@ -74,6 +82,7 @@ body{
     opacity:0;
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Social Links Styles */
 #first .social-links {
     position: absolute;
@@ -90,6 +99,7 @@ body{
     margin: 0 20px
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Button Styles */
 .button {
     font-size: 20px;
@@ -143,6 +153,7 @@ body{
     transform: translateY(100%)  rotateX(90deg);
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Second Page */
 .second-page{
     background-image: url(../assets/img/header.jpg);
@@ -150,6 +161,7 @@ body{
     color:white;
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Third Section Styles */
 .about .list{
     padding: 10px 20px 10px 5px;
@@ -200,6 +212,7 @@ body{
     content: " ";
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Secon Section Styles */
 .presentation{
     background-color: #343a40;
@@ -218,6 +231,7 @@ body{
     clip-path: circle(150px at center);
 }
 
+/* Juan Sebastian Vaca: Indica donde inicia pero no donde finaliza el estilo de este elemento*/
 /* Other Styles */
 .title{
     background-image: url(../assets/img/tech.jpg);

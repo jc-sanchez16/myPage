@@ -1,5 +1,8 @@
 # My Page
 
+*/ Juan sebastian Vaca: Hace falta el screenshot de la pagina  */
+
+
 * **[Objective](#objective)**<br />
 * **[Technics](#technics)**<br />
 * **[HowTo](#HowTo)**<br />
@@ -17,6 +20,9 @@ This is a portfolio page of my work and expirience
 - [GitHub](https://github.com/) for development
 
 ## HowTo
+
+*/ Juan sebastian Vaca: Falta ser un poco mas espcifico con el how to adicionalmente falta agregar el procdimiento para acceder desde consola*/
+
 - Clone this repo
 - open Index.html
 
